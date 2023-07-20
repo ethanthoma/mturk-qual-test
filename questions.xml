@@ -1,0 +1,100 @@
+<QuestionForm xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd">
+    <Overview>
+        <Title>CommonGen Manual Evaluation Qualification Task</Title>
+        <Text>This is a short, qualification task for evaluating the quality of generated text from AI models. The AI models use CommonGen which is a set of tasks for the AI. We would like you to select the answers that seem the most fluent, sensible, and complex.</Text>
+    </Overview>
+    <Question>
+        <QuestionIdentifier>q1</QuestionIdentifier>
+        <DisplayName>Fluency</DisplayName>
+        <IsRequired>true</IsRequired>
+        <QuestionContent>
+            <Text>Please select the most fluent sentence. Fluent means that the generated sentence sounds natural to native speakers. Things that contribute to fluency include but not limited to grammatical structure, word and phrase usage, and punctuations. Note that the semantics of the sentence is NOT evaluated for fluency.</Text>
+        </QuestionContent>
+        <AnswerSpecification>
+            <SelectionAnswer>
+                <StyleSuggestion>radiobutton</StyleSuggestion>
+                <Selections>
+                    <Selection>
+                        <SelectionIdentifier>q1_a1</SelectionIdentifier>
+                        <Text>Flowers garden colorful painted scene beautiful.</Text>
+                    </Selection>
+                    <Selection>
+                        <SelectionIdentifier>q1_a2</SelectionIdentifier>
+                        <Text>The tranquil garden blooming flowers, their colors vibrant.</Text>
+                    </Selection>
+                    <Selection>
+                        <SelectionIdentifier>q1_a3</SelectionIdentifier>
+                        <Text>In the garden, the excited flowers were blooming with colors that were vibrant and beautiful, creating a scene of tranquility.</Text>
+                    </Selection>
+                    <Selection>
+                        <SelectionIdentifier>q1_a4</SelectionIdentifier>
+                        <Text>The garden painted; jumped with bloomed flowers, their petal`s vibrant?</Text>
+                    </Selection>
+                </Selections>
+            </SelectionAnswer>
+        </AnswerSpecification>
+    </Question>
+    <Question>
+        <QuestionIdentifier>q2</QuestionIdentifier>
+        <DisplayName>Coherence</DisplayName>
+        <IsRequired>true</IsRequired>
+        <QuestionContent>
+            <Text>Please select the sentence that makes the most sense. Sensible means that the generated sentence makes logical, rational sense. Things that contribute to the level of sense include but are not limited to logics of the sentences, the plausibility of the sentences and the possibility of the event described by the sentence.</Text>
+        </QuestionContent>
+        <AnswerSpecification>
+            <SelectionAnswer>
+                <StyleSuggestion>radiobutton</StyleSuggestion>
+                <Selections>
+                    <Selection>
+                        <SelectionIdentifier>q2_a1</SelectionIdentifier>
+                        <Text>We swam at the pool often but we kept sinking the 8 ball and losing.</Text>
+                    </Selection>
+                    <Selection>
+                        <SelectionIdentifier>q2_a2</SelectionIdentifier>
+                        <Text>I opened my umbrella to shield myself from the rain pouring down while I was in the library.</Text>
+                    </Selection>
+                    <Selection>
+                        <SelectionIdentifier>q2_a3</SelectionIdentifier>
+                        <Text>My friends and I fancied a ball: we got to dance at it and we played catch with it later.</Text>
+                    </Selection>
+                    <Selection>
+                        <SelectionIdentifier>q2_a4</SelectionIdentifier>
+                        <Text>The family enjoyed swimming so they visited the pool often.</Text>
+                    </Selection>
+                </Selections>
+            </SelectionAnswer>
+        </AnswerSpecification>
+    </Question>
+    <Question>
+        <QuestionIdentifier>q3</QuestionIdentifier>
+        <DisplayName>Complexity</DisplayName>
+        <IsRequired>true</IsRequired>
+        <QuestionContent>
+            <Text>Please select the most complex sentence. Complex means that the sentence contains much information and sophisticated structure. Things that contribute to complexity include but are not limited to are the number of modifiers and clauses used in the sentence.</Text>
+        </QuestionContent>
+        <AnswerSpecification>
+            <SelectionAnswer>
+                <StyleSuggestion>radiobutton</StyleSuggestion>
+                <Selections>
+                    <Selection>
+                        <SelectionIdentifier>q3_a1</SelectionIdentifier>
+                        <Text>I bit an apple.</Text>
+                    </Selection>
+                    <Selection>
+                        <SelectionIdentifier>q3_a2</SelectionIdentifier>
+                        <Text>Where he lay, the golden apple sat, bitten and nibbled, a fresh taste.</Text>
+                    </Selection>
+                    <Selection>
+                        <SelectionIdentifier>q3_a3</SelectionIdentifier>
+                        <Text>In the garden, the apple sat.</Text>
+                    </Selection>
+                    <Selection>
+                        <SelectionIdentifier>q3_a4</SelectionIdentifier>
+                        <Text>The quiet, red apple.</Text>
+                    </Selection>
+                </Selections>
+            </SelectionAnswer>
+        </AnswerSpecification>
+    </Question>
+</QuestionForm>
+
