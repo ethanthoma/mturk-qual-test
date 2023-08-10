@@ -1,7 +1,7 @@
 <QuestionForm xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd">
     <Overview>
         <Title>CommonGen Manual Evaluation Qualification Task</Title>
-        <Text>This is a short, qualification task for evaluating the quality of generated text from AI models. The AI models use CommonGen which is a set of tasks for the AI. We would like you to select the answers that seem the most fluent, sensible, and complex.</Text>
+        <Text>This is a short, qualification task for evaluating the quality of generated text from AI models. We would like you to select the answers that seem the most fluent, sensible, and complex.</Text>
     </Overview>
     <Question>
         <QuestionIdentifier>q1</QuestionIdentifier>
@@ -70,7 +70,7 @@
         <DisplayName>Complexity</DisplayName>
         <IsRequired>true</IsRequired>
         <QuestionContent>
-            <Text>Please select the most complex sentence. Complex means that the sentence contains much information and sophisticated structure. Things that contribute to complexity include but are not limited to are the number of modifiers and clauses used in the sentence.</Text>
+            <Text>Please select the most complex sentence. Complex means that the sentence contains much information and sophisticated structure. Your ratings for complexity should not be effected by sensibility. Things that contribute to complexity include but are not limited to are the number of modifiers and clauses used in the sentence.</Text>
         </QuestionContent>
         <AnswerSpecification>
             <SelectionAnswer>

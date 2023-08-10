@@ -1,0 +1,24 @@
+<AnswerKey xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/AnswerKey.xsd">
+    <Question>
+        <QuestionIdentifier>q1</QuestionIdentifier>
+            <AnswerOption>
+                <SelectionIdentifier>q1_a3</SelectionIdentifier>
+                <AnswerScore>1</AnswerScore>
+            </AnswerOption>
+    </Question>
+    <Question>
+        <QuestionIdentifier>q2</QuestionIdentifier>
+            <AnswerOption>
+                <SelectionIdentifier>q2_a4</SelectionIdentifier>
+                <AnswerScore>1</AnswerScore>
+            </AnswerOption>
+    </Question>
+    <Question>
+        <QuestionIdentifier>q3</QuestionIdentifier>
+            <AnswerOption>
+                <SelectionIdentifier>q3_a2</SelectionIdentifier>
+                <AnswerScore>1</AnswerScore>
+            </AnswerOption>
+    </Question>
+</AnswerKey>
+

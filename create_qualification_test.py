@@ -15,7 +15,7 @@ def main():
         Name='Generated Sentence Quality Evaluation',
         Keywords='nlp, commongen, generations',
         Description='The worker is qualified to answer HITs about fluency, sensibility, and complexity for generated sentences.',
-        RetryDelayInSeconds=60,
+        RetryDelayInSeconds=172800,
         QualificationTypeStatus='Active',
         Test=questions,
         AnswerKey=answers,
